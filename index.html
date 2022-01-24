@@ -21,34 +21,48 @@
   </head>
   <body>
     <!--toast-->
-  
-    <div aria-live="polite" aria-atomic="true" class="  fixed  top-0 end-0">
 
-      <div class="toast-container position-absolute  top-0 end-0 p-3">
-    
+    <div aria-live="polite" aria-atomic="true" class="fixed top-0 end-0">
+      <div class="toast-container position-absolute top-0 end-0 p-3">
         <!-- Then put toasts within -->
-        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="toast-header">
-            <img src="icons/Vector.svg" class="rounded me-2" alt="...">
+        <div
+          class="toast"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header " id="toastbody">
+            <img src="icons/Vector.svg" class="rounded me-2" alt="..." />
             <strong class="me-auto">20% off on next booking</strong>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
           </div>
-          
         </div>
       </div>
     </div>
     <div class="">
-      <header>
+      <header id="home">
         <!--navbar -->
         <div class="">
           <nav
-            class="navbar navbar-expand-lg navbar-light fixed-top"
-            style="background-color: #fffbf0"
+            class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+            style="background-color: #"
           >
             <div class="container">
               <a class="navbar-brand" href="#"
-                ><img src="icons/logo.png" class="img-fluid" alt="" width="15%" />
-                SV Convention Center
+                ><img
+                  src="icons/logo.png"
+                  class="img-fluid"
+                  alt=""
+                  width="13%"
+                />
+                <span class="">
+                  SV Convention Center
+                </span>
               </a>
               <button
                 class="navbar-toggler"
@@ -69,16 +83,19 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#woman">Woman</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#man">Man</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="#about">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="tailwindcss.html">Tailwind</a>
+                    <a class="nav-link" href="#package">Package</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#service">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -88,7 +105,7 @@
         <!--sider-->
         <div
           id="carouselExampleCaptions"
-          class="carousel slide"
+          class="carousel slide py-5"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
@@ -142,9 +159,9 @@
                   The perfect venue for annual official meeting
                 </h5>
                 <p class="text-dark">
-                  To help you, we have put together our guide to choosing a annual
-                  official meeting venue, a helpful tool to make sure that you
-                  pick the perfect place for both you and your fiancée.
+                  To help you, we have put together our guide to choosing a
+                  annual official meeting venue, a helpful tool to make sure
+                  that you pick the perfect place for both you and your fiancée.
                 </p>
                 <a
                   href="https://www.massconvention.com/"
@@ -200,7 +217,7 @@
       </header>
       <main>
         <!--Wedding section-->
-        <section>
+        <section id="about">
           <div class="top-baner pt-5 pb-5 mt-5">
             <div class="container">
               <div class="row">
@@ -214,10 +231,10 @@
                 <div class="col-12 col-lg-6 col-md-6 mt-5">
                   <h1 class="text-uppercase">every moment is precious</h1>
                   <p class="fs-5">
-                    That was touching. It really said my whole life. I'm too busy
-                    with everything and I'm memorizing this to my heart. I'm busy
-                    with school. I take too much time thinking about tomorrow
-                    than...
+                    That was touching. It really said my whole life. I'm too
+                    busy with everything and I'm memorizing this to my heart.
+                    I'm busy with school. I take too much time thinking about
+                    tomorrow than...
                   </p>
                   <div class="col d-grid gap-2" style="width: 220px">
                     <button class="btn btn-lg wedding-btn" type="button">
@@ -230,7 +247,7 @@
           </div>
         </section>
         <!--our package-->
-        <section class="container">
+        <section id="package"class="container">
           <h1 class="text-center">Our Package</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 my-5">
             <div class="col package">
@@ -393,12 +410,12 @@
           </div>
         </section>
         <!--our service -->
-        <section style="background-color: #fffbf0">
+        <section id="service" style="background-color: #fffbf0">
           <h1 class="text-center">Our Services</h1>
           <div class="container">
             <div class="row row-cols-1 row-cols-md-4 g-4 py-4">
               <div class="col">
-                <div class="card h-100 border-0 service">
+                <div class="card h-100 border-0 service align-items-center">
                   <img
                     src="images/Meeting.jpg"
                     class="card-img-top p-4"
@@ -418,8 +435,12 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100 border-0 service">
-                  <img src="images/food.jpg" class="card-img-top p-4" alt="..." />
+                <div class="card h-100 border-0 service align-items-center">
+                  <img
+                    src="images/food.jpg"
+                    class="card-img-top p-4"
+                    alt="..."
+                  />
                   <div class="card-body">
                     <h5 class="card-title text-center">Good Food</h5>
                   </div>
@@ -434,7 +455,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100 border-0 service">
+                <div class="card h-100 border-0 service align-items-center">
                   <img
                     src="images/safety.jpg"
                     class="card-img-top p-4"
@@ -454,7 +475,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100 border-0 service">
+                <div class="card h-100 border-0 service align-items-center">
                   <img
                     src="images/Business.jpg"
                     class="card-img-top p-4"
@@ -479,8 +500,8 @@
           </div>
         </section>
         <!--clients section-->
-        <section class="clients container my-5">
-          <h1 class="text-center">Happy Clients Says</h1>
+        <section id="subscribe" class="clients container my-5 ">
+          <h1 class="text-center ">Happy Clients Says</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
             <div class="col">
               <div class="card h-100 border-0 shadow rounded-3">
@@ -504,13 +525,13 @@
                 <div class="card-body text-center">
                   <p class="card-text">
                     "Dublin is an incubator city for start-ups and a home of
-                    innovation, and The CCD is a fantastic facility. Our congress
-                    requires a variety of different sized spaces and to cater to
-                    different numbers, and The CCD has been extraordinarily
-                    flexible and adaptable."/p>
+                    innovation, and The CCD is a fantastic facility. Our
+                    congress requires a variety of different sized spaces and to
+                    cater to different numbers, and The CCD has been
+                    extraordinarily flexible and adaptable."/p>
                   </p>
                 </div>
-  
+
                 <div class="border-0 text-center">
                   <img src="images/person 2.png" alt="" />
                   <h5 class="card-title mt-2">Finn Raben</h5>
@@ -523,9 +544,9 @@
                 <div class="card-body text-center">
                   <p class="card-text">
                     “For us, The Convention Centre Dublin is the perfect venue.
-                    The staff are designed and trained for this type of business.
-                    It’s streets ahead of most of our international competition as
-                    well as our other national venues.”
+                    The staff are designed and trained for this type of
+                    business. It’s streets ahead of most of our international
+                    competition as well as our other national venues.”
                   </p>
                 </div>
                 <div class="border-0 text-center">
@@ -538,7 +559,7 @@
           </div>
         </section>
         <!---Questions-->
-        <section class="container">
+        <section class="container ">
           <h1 class="text-center">Frequently Asked Questions</h1>
           <div class="row align-items-center my-5">
             <div class="col-12 col-md-6 col-lg-6 my-3">
@@ -594,11 +615,11 @@
                     <div class="accordion-body text-break">
                       Creating a budget is an essential early step in event
                       planning that helps to clarify other aspects of your plan.
-                      Additionally, establishing a budget helps to avoid unwanted
-                      surprises (like running out of money for decor, etc.). You
-                      will be more successful if you map out your entire budget in
-                      advance, continue to update as you finalize variables, and
-                      stay very close to the process.
+                      Additionally, establishing a budget helps to avoid
+                      unwanted surprises (like running out of money for decor,
+                      etc.). You will be more successful if you map out your
+                      entire budget in advance, continue to update as you
+                      finalize variables, and stay very close to the process.
                     </div>
                   </div>
                 </div>
@@ -624,12 +645,13 @@
                     <div class="accordion-body">
                       When cancelling a monthly subscription, all future charges
                       associated with future months of your subscription will be
-                      cancelled. You may notify us of your intent to cancel at any
-                      time; your cancellation will become effective at the end of
-                      your current monthly billing period. You will not receive a
-                      refund; however your subscription access and/or delivery and
-                      accompanying subscriber benefits will continue for the
-                      remainder of the current monthly billing period.
+                      cancelled. You may notify us of your intent to cancel at
+                      any time; your cancellation will become effective at the
+                      end of your current monthly billing period. You will not
+                      receive a refund; however your subscription access and/or
+                      delivery and accompanying subscriber benefits will
+                      continue for the remainder of the current monthly billing
+                      period.
                     </div>
                   </div>
                 </div>
@@ -654,12 +676,12 @@
                   >
                     <div class="accordion-body">
                       One of the issues I’ve always had with budgeting is that
-                      most budget reviews happen in hindsight after it’s too late
-                      to do anything about it. The challenge is finding a way to
-                      measure how you’re tracking against your budget without
-                      making it your new hobby. Here are six ways that I know of.
-                      (Hopefully, there’s at least one that you haven’t thought of
-                      before.)
+                      most budget reviews happen in hindsight after it’s too
+                      late to do anything about it. The challenge is finding a
+                      way to measure how you’re tracking against your budget
+                      without making it your new hobby. Here are six ways that I
+                      know of. (Hopefully, there’s at least one that you haven’t
+                      thought of before.)
                     </div>
                   </div>
                 </div>
@@ -676,29 +698,40 @@
         </section>
       </main>
       <!--footer-->
-      <footer class="bg-dark">
+      <footer id="contact" class="bg-dark common">
         <section class="container">
           <div class="row d-flex align-items-center justify-content-between">
-            <div class="col text-light">© 2020 bike. All rights reserved</div>
-            <div class="col d-flex align-items-center flex-column ml-5 my-5">
+            <div
+              class="col-12 col-md-6 col-lg-6 text-light text-center order-2 order-md-1 order-lg-1"
+            >
+              © 2020 bike. All rights reserved
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-6 d-flex align-items-center flex-column ml-5 my-5 order-1 order-md-2 order-lg-2"
+            >
               <h3 class="text-light">Get The App</h3>
-              <button type="button" class="btn btn-lg">
-                <a href="https://apps.apple.com/us/app/aquapark-io/id1453989822"
-                  ><img
-                    class="img-fluid rounded alin w-50"
-                    src="icons/appstore.png"
-                    alt=""
-                /></a>
-              </button>
-              <button type="button" class="btn btn-lg">
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.google.android.apps.tachyon"
-                  ><img
-                    class="img-fluid rounded alin w-50"
-                    src="icons/google-play-store.jpg"
-                    alt=""
-                /></a>
-              </button>
+              <a
+                href="https://www.phoenixconventioncenter.com/"
+                class="btn btn-lg"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                ><img
+                  class="img-fluid rounded alin w-50"
+                  src="icons/appstore.png"
+                  alt=""
+              /></a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.google.android.apps.tachyon"
+                class="btn btn-lg"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                ><img
+                  class="img-fluid rounded alin w-50"
+                  src="icons/google-play-store.jpg"
+                  alt=""
+              /></a>
             </div>
           </div>
         </section>
@@ -713,17 +746,16 @@
     ></script>
 
     <script>
-      var option={
+      var option = {
         animation: true,
-        autohide:false,
-        delay:10000
-        
-      }
-      var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        autohide: false,
+        delay: 10000,
+      };
+      var toastElList = [].slice.call(document.querySelectorAll(".toast"));
       var toastList = toastElList.map(function (toastEl) {
-        return new bootstrap.Toast(toastEl, option)
-      })
-      for(var i=0; i<toastList.length; i++){
+        return new bootstrap.Toast(toastEl, option);
+      });
+      for (var i = 0; i < toastList.length; i++) {
         toastList[i].show();
       }
     </script>
