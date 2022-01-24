@@ -47,6 +47,9 @@ h2 {
 .service button {
   border: 2px solid rgb(153, 75, 75);
 }
+.service button:hover {
+    border: 2px solid rgb(187, 226, 16);
+  }
 
 .toast { 
     margin-top: 700px;
