@@ -1,35 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@900&display=swap");
 
-.carousel-item img{
-    width:100%;
-    height:585px;
+.carousel-item img {
+  width: 100%;
+  height: 585px;
+  opacity: 0.5;
 }
 
-h1{
-    font-family: 'Oswald', sans-serif;
-    font-size:40px;
-    color: #363958;
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: #363958;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.wedding-btn {
+  background-image: linear-gradient(#3543bc, #3d4ff3);
+  color: white;
+}
+.wedding-btn:hover {
+  color: rgb(196, 235, 196) !important;
+}
+.package {
+  margin-top: 80px;
+}
+#hot {
+  margin-bottom: 70px;
+}
+.accordion-body {
+  text-align: justify;
+}
+.service {
+  background-color: #fffbf0;
+}
+.service img {
+  border-radius: 50%;
+  height: 250px;
+}
+.service button {
+  border: 2px solid rgb(153, 75, 75);
+}
 
-}
-h2{
-    font-family: 'Oswald', sans-serif;
-    font-size:40px;
-    margin-top:20px;
-    margin-left: 15px;
-}
-.wedding-btn{
-    background-image: linear-gradient(#3543BC, #3D4FF3);
-    color: white;
-}
-.wedding-btn:hover{
-    color: rgb(196, 235, 196) !important;
-}
-.package{
-    margin-top:80px
-}
-#hot{
-    margin-bottom: 70px;   
-}
-.accordion-body{
-    text-align:justify;
+.toast {
+   
+    margin-top: 600px;
+    background-color: red;
 }
