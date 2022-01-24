@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@900&display=swap');
+
+.carousel-item img{
+    width:100%;
+    height:585px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size:40px;
+    color: #363958;
+
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size:40px;
+    margin-top:20px;
+    margin-left: 15px;
+}
+.wedding-btn{
+    background-image: linear-gradient(#3543BC, #3D4FF3);
+    color: white;
+}
+.wedding-btn:hover{
+    color: rgb(196, 235, 196) !important;
+}
+#hot{
+    height:px;
+}
