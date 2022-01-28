@@ -24,14 +24,14 @@
 
     <div aria-live="polite" aria-atomic="true" class="fixed top-0 end-0">
       <div class="toast-container position-absolute top-0 end-0 p-3">
-        <!-- Then put toasts within -->
+        <!--Then put toasts within -->
         <div
-          class="toast"
+          class="toast show"
           role="alert"
           aria-live="assertive"
           aria-atomic="true"
         >
-          <div class="toast-header " id="toastbody">
+          <div class="toast-header d-flex" id="toastbody">
             <img src="icons/Vector.svg" class="rounded me-2" alt="..." />
             <strong class="me-auto">20% off on next booking</strong>
             <button
@@ -60,9 +60,7 @@
                   alt=""
                   width="13%"
                 />
-                <span class="">
-                  SV Convention Center
-                </span>
+                <span class=""> SV Convention Center </span>
               </a>
               <button
                 class="navbar-toggler"
@@ -247,7 +245,7 @@
           </div>
         </section>
         <!--our package-->
-        <section id="package"class="container">
+        <section id="package" class="container">
           <h1 class="text-center">Our Package</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 my-5">
             <div class="col package">
@@ -500,8 +498,8 @@
           </div>
         </section>
         <!--clients section-->
-        <section id="subscribe" class="clients container my-5 ">
-          <h1 class="text-center ">Happy Clients Says</h1>
+        <section id="subscribe" class="clients container my-5">
+          <h1 class="text-center">Happy Clients Says</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
             <div class="col">
               <div class="card h-100 border-0 shadow rounded-3">
@@ -559,7 +557,7 @@
           </div>
         </section>
         <!---Questions-->
-        <section class="container ">
+        <section class="container">
           <h1 class="text-center">Frequently Asked Questions</h1>
           <div class="row align-items-center my-5">
             <div class="col-12 col-md-6 col-lg-6 my-3">
@@ -738,14 +736,14 @@
       </footer>
     </div>
 
+   
     <!-- bootstrap js -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
-    <script>
+    <!--<script>
       var option = {
         animation: true,
         autohide: false,
@@ -758,6 +756,6 @@
       for (var i = 0; i < toastList.length; i++) {
         toastList[i].show();
       }
-    </script>
+    </script>-->
   </body>
 </html>
